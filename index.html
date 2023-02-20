@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="images/weather-icon.png">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <main>
+      <h1>Weather App</h1>
+      <p class="padding-top-2">Get weather details for any city.</p>
+      <form class="padding-top-2" action="/" method="post">
+        <label for="cityInput">City Name:</label>
+        <input id="cityInput" type="text" name="cityName" autofocus="autofocus" placeholder="Search City">
+        <button class="search-btn" type="submit">Search!</button>
+      </form>
+    </main>
+    <footer id="footer">
+      <p>&copy;<span id="current-year"></span>&nbsp;Weather App</p>
+    </footer>
+    <script src="src/footer.js"></script>
+  </body>
+</html>

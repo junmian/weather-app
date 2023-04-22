@@ -2,111 +2,123 @@ body,
 h1,
 h2,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    text-align: center;
-    background-color: rgb(167, 183, 212);
-    padding: 4% 4% 0;
-    font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: rgb(167, 183, 212);
+  padding: 4% 4% 0;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-    display: block;
-    max-width: 700px;
-    margin: 0 auto;
-    padding-top: 10%;
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 10%;
 }
 
 .results-content {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+sup {
+  font-size: 1.75rem;
+}
+
+.feels-like-sup {
+  font-size: 0.73rem;
 }
 
 p {
-    font-size: 1.25rem;
-    line-height: 1.5;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .padding-top-1 {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .padding-top-2 {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .left-align {
-    text-align: left;
+  text-align: left;
 }
 
 .weather-image {
-    display: block;
-    margin: 0 auto 0.2rem;
-    width: 150px;
-    height: auto;
+  display: block;
+  margin: 0 auto 0.2rem;
+  width: 150px;
+  height: auto;
 }
 
 input[type="text"] {
-    padding: 0.3rem;
-    font-size: 1.3rem;
+  padding: 0.3rem;
+  font-size: 1.3rem;
 }
 
 label {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .search-btn {
-    padding: 0.5rem;
-    line-height: 1.2;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: rgb(70, 112, 190);
-    border-radius: 5px;
-    color: white;
+  padding: 0.5rem;
+  line-height: 1.2;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(70, 112, 190);
+  border-radius: 5px;
+  color: white;
 }
 
 .search-again-btn {
-    background-color: rgb(70, 112, 190);
-    -webkit-border-radius: 6;
-    -moz-border-radius: 6;
-    border-radius: 6px;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
+  background-color: rgb(70, 112, 190);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .search-again-btn:hover,
 .search-btn:hover {
-    background-color: rgb(110, 148, 219);
+  background-color: rgb(110, 148, 219);
 }
 
 .search-again-btn a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .accordion {
-    max-width: 550px;
-    margin: 0 auto;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 .accordion-body p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 footer {
-    padding-top: 25%;
+  padding-top: 25%;
 }
 
 /* Media Query */
 @media (max-width: 500px) {
-    h1 {
-        font-size: 3rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 }

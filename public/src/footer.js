@@ -1,11 +1,9 @@
-const today = new Date();
-const currentYear = today.getFullYear();
-
+const newDate = new Date();
 const footerYear = document.getElementById("current-year");
-const currentFooterYear = today.getFullYear();
+const currentYear = newDate.getFullYear();
 
-function displayFooterYear() {
-  footerYear.innerHTML = currentFooterYear;
+const displayCurrentYear = () => {
+  footerYear.textContent = currentYear;
 }
 
-displayFooterYear();
+displayCurrentYear();
